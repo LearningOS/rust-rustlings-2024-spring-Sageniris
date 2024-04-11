@@ -8,7 +8,7 @@
 
 
 fn main() {
-    let a = [0,1,2,3,4,5];
+    let a = [0; 101];
 
     if a.len() >= 100 {
         println!("Wow, that's a big array!");
